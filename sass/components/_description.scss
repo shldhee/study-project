@@ -1,0 +1,42 @@
+.description {
+    width: 100%;
+    max-width: 80rem;
+    margin: 0 auto;
+    word-break: break-all;
+    // border-top: 1px solid $color-grey-light-2;
+    border-bottom: 1px solid $color-grey-light-2;
+    &__paragraph {
+        font-size: $default-font-size;
+        padding: 2rem 0;
+        color: $color-white;
+    }
+    &__group {
+        display: flex;
+        padding: 2rem 1rem;
+        // flex-direction: column;
+
+        &:not(:first-child) {
+            border-top: 1px solid $color-grey-light-2;
+        }
+    }
+    &__title {
+        color: $color-white;
+        flex-basis: 20%;
+        font-size: $default-font-size;
+    }
+
+    &__content {        
+        font-size: $default-font-size;
+
+        & > a {
+            font-size: $default-font-size;
+            color: $color-white;
+            text-decoration: none;
+            transition: all .4s;
+
+            &:hover {
+                color: $color-black;
+            }
+        }
+    }
+}

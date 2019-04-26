@@ -1,0 +1,21 @@
+.sns {
+    order: 2;
+    display: flex;
+    &__item {
+        &:not(:first-child) {
+            margin-left: 1rem;
+        }
+    }
+
+    &__link {
+        display: inline-block; 
+        font-size: 2rem;
+        transition: all .4s;
+        color: $color-grey-dark;
+
+        &:hover {
+            transform: translateY(-0.2rem);
+            color: $color-black;
+        }
+    }
+}
