@@ -4,22 +4,25 @@
     display: flex;
     flex-wrap: wrap;
     margin: 0 auto;
-
     &__item {
         text-align: center;
-        width: calc((100% - 2rem * 4) / 4) ;
+        width: calc((100% - 2rem * 4) / 4);
         margin: 1rem;
         padding: 1rem;
         height: 24rem;
         position: relative;
         z-index: 100;
     }
-
-    &__icon {
-
-    }
-    
+    // &__box {
+    //     display: flex;
+    //     justify-content: center;
+    //     align-items: center;
+    // }
+    &__icon {}
     &__card {
+        display: flex;
+        justify-content: center;
+        align-items: center;
         position: absolute;
         top: 0;
         left: 0;
@@ -32,23 +35,21 @@
         overflow: hidden;
         box-shadow: 0 1.5rem 4rem rgba($color-black, .15);
     }
-
     &__card-front {
-        background-color: royalblue;
+        background-color: $color-grey-dark-4;
     }
-
     &__card-back {
         transform: rotateY(180deg);
-        background-color: orchid;
+        background-color: $color-white;
     }
-
-
     &__item:hover &__card-front {
         transform: rotateY(-180deg);
     }
-
     &__item:hover &__card-back {
         transform: rotateY(0);
     }
-
+    &__paragraph {
+        color: $color-white;
+        font-size: 1.4rem;
+    }
 }
