@@ -60,13 +60,18 @@ body {
     &:hover {
         text-shadow: .5rem 1rem 2rem rgba($color-black, .2);
     }
+
+    &-sub {
+      font-size: 1.4rem;
+      display: block;
+    }
 }
 
 .heading-tertiary {
     font-size: $default-font-size;
     font-weight: 700;
     text-transform: uppercase;
-    color: $color-white;
+    color: $color-grey-dark-4;
 }
 
 .paragraph {

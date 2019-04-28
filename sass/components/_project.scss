@@ -36,7 +36,7 @@
         box-shadow: 0 1.5rem 4rem rgba($color-black, .15);
     }
     &__card-front {
-        background-color: $color-grey-dark-4;
+        background-color: $color-white;
     }
     &__card-back {
         transform: rotateY(180deg);
@@ -49,7 +49,7 @@
         transform: rotateY(0);
     }
     &__paragraph {
-        color: $color-white;
+        color: $color-grey-dark-4;
         font-size: 1.4rem;
     }
 }

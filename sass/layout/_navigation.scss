@@ -1,5 +1,8 @@
 .navigation {
     order: 0;
+    &__item {
+      // display: inline-block;
+    }
 
     &__link {
         font-size: 1.6rem;
@@ -11,5 +14,5 @@
             text-decoration: underline;
             color: $color-black;
         }
-    }   
+    }
 }

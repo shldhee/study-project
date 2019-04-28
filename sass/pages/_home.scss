@@ -6,9 +6,13 @@
     background-color: $color-grey-dark-4;
 }
 
-.section-project {
+.section-project,
+.section-toy,
+.section-study {
     padding: 4rem 6rem;
 }
+
+
 
 // .section-project {
 //     background-color: #ccc;
@@ -74,7 +78,7 @@
 // }
 
 // .book {
-//     background-image: linear-gradient(105deg, 
+//     background-image: linear-gradient(105deg,
 //                                     rgba($color-white, .9) 0%,
 //                                     rgba($color-white, .9) 50%,
 //                                     transparent 50%) ,
@@ -84,7 +88,7 @@
 //     box-shadow: 0 1.5rem 4rem rgba($color-black, .2);
 
 //     @include respond(tab-land) {
-//         background-image: linear-gradient(105deg, 
+//         background-image: linear-gradient(105deg,
 //         rgba($color-white, .9) 0%,
 //         rgba($color-white, .9) 65%,
 //         transparent 65%) ,
@@ -93,7 +97,7 @@
 //     }
 
 //     @include respond(tab-port) {
-//         background-image: linear-gradient(to right, 
+//         background-image: linear-gradient(to right,
 //         rgba($color-white, .9) 0%,
 //         rgba($color-white, .9) 100%),
 // url(../img/nat-10.jpg);
