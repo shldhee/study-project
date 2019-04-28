@@ -19,6 +19,11 @@
 
 - navigation 이동
 - infomation 작성
+- css 정리
+
+---
+
 - vue study 정리
 - study 정리
 - responsive 대응
+- todolist정리(http://bbaki.ivyro.net/dev/todolist/)
