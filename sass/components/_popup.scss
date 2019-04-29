@@ -2,13 +2,13 @@
   &.on {
     opacity: 1;
     visibility: visible;
-    overflow: scroll;
+    overflow-y: scroll;
   }
 
   &.on &__content {
     opacity: 1;
     transform: translate(-50%, -50%) scale(1);
-    overflow: scroll;
+    overflow-y: scroll;
   }
 
   height: 100vh;

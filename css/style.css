@@ -205,9 +205,13 @@ body {
   .project__card-back {
     transform: rotateY(180deg);
     background-color: #fff; }
-  .project__item:hover .project__card-front {
+  .project__item:hover .project__card-front,
+  .project__item:focus .project__card-front,
+  .project__item:active .project__card-front {
     transform: rotateY(-180deg); }
-  .project__item:hover .project__card-back {
+  .project__item:hover .project__card-back,
+  .project__item:focus .project__card-back,
+  .project__item:active .project__card-back {
     transform: rotateY(0); }
   .project__paragraph {
     color: #929292;
@@ -307,11 +311,11 @@ body {
   .popup.on {
     opacity: 1;
     visibility: visible;
-    overflow: scroll; }
+    overflow-y: scroll; }
   .popup.on .popup__content {
     opacity: 1;
     transform: translate(-50%, -50%) scale(1);
-    overflow: scroll; }
+    overflow-y: scroll; }
   .popup__content {
     position: absolute;
     top: 50%;
