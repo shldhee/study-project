@@ -1,4 +1,4 @@
-export const projectObject = [{
+const projectObject = [{
   "id": "joycommunity",
   "title": "커뮤니티",
   "category": "PROJECT",
