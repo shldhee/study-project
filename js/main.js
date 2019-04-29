@@ -1,4 +1,4 @@
-import { projectObject } from 'js/projectObject.js';
+import { projectObject } from 'https://shldhee.github.io/study-project/js/projectObject.js';
 
 // 변수 선언
 const popup = document.querySelector('.popup');
