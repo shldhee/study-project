@@ -2,11 +2,13 @@
   &.on {
     opacity: 1;
     visibility: visible;
+    overflow: scroll;
   }
 
   &.on &__content {
     opacity: 1;
     transform: translate(-50%, -50%) scale(1);
+    overflow: scroll;
   }
 
   height: 100vh;
@@ -72,10 +74,15 @@
             display: inline-block;
             transition: all .2s;
             line-height: 1;
+             @include respond(phone) {
+               top: 1rem;
+               right: 1rem;
+             }
         }
 
         &:hover {
             color: $color-primary;
         }
+
     }
 }

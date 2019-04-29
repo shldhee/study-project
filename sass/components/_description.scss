@@ -23,9 +23,12 @@
         color: $color-white;
         flex-basis: 20%;
         font-size: $default-font-size;
+         @include respond(phone) {
+           flex-basis: 30%;
+         }
     }
 
-    &__content {        
+    &__content {
         font-size: $default-font-size;
 
         & > a {

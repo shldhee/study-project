@@ -1,9 +1,13 @@
 .section-infomation {
-    padding: 4rem;
+  padding: 4rem;
+
+  @include respond(phone) {
+    padding: 2rem;
+  }
 }
 
 .section-infomation {
-    background-color: $color-grey-dark-4;
+  background-color: $color-grey-dark-4;
 }
 
 .section-project,
@@ -11,4 +15,8 @@
 .section-study {
   scroll-behavior: smooth;
   padding: 4rem 6rem;
+
+  @include respond(phone) {
+    padding: 2rem 3rem;
+  }
 }
