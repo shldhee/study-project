@@ -17,7 +17,7 @@ export const projectObject = [{
   "type": "JOYCITY",
   "subTitle": "건쉽배틀 : 토탈워페어 홈페이지 구축",
   "technology": "HTML, CSS, JAVASCRIPT(jQuery)",
-  "concept": "건쉽배틀 : 토탈워페어 사전 예약 & 공식 홈페이지 제작했습니다.",
+  "concept": "건쉽배틀 : 토탈워페어 사전 예약 & 공식 홈페이지 제작했습니다. 백그라운드 영상을 활용해 사이트의 역동성을 추가했습니다.",
   "description": ["기여도 70%", "반응형 웹 제작", "팝업 슬라이드, 동영상 작업, 게시판 작업", "SNS(트위터, 페이스북) 공유",
     "youtube api 활용", "다국어"
   ],
@@ -157,7 +157,7 @@ export const projectObject = [{
   "subTitle": "토이프로젝트",
   "technology": "HTML, CSS, JAVASCRIPT",
   "concept": "그룹 스터디로 하나의 주제를 정해서 스터디원 각각 자유롭게 구현했습니다.",
-  "description": ["Git", "Git pullrequest, issue, milestone 등을 활용", "이 프로젝트를 통해 Git에 대한 이해도가 향상되어 항상 궁금했던 실무에서 어떻게 Git을 활용할까에 궁금증에 대한 답변을 찾았습니다.", "Vending Machine, Carousel, Calcuator 구현"],
+  "description": ["Git pullrequest, issue, milestone 등을 활용", "이 프로젝트를 통해 Git에 대한 이해도가 향상되어 항상 궁금했던 실무에서 어떻게 Git을 활용할까에 궁금증에 대한 답변을 찾았습니다.", "Vending Machine, Carousel, Calcuator 구현"],
   "link": "https://github.com/rosd89/the-colors/tree/master/duckhee",
 }, {
   "id": "toyvm",
