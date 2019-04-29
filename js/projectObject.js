@@ -225,7 +225,7 @@ const projectObject = [{
     "속깊은 JavaScript",
     "GULP SETTING",
     "Vue",
-    "Vuex""
+    "Vuex"
   ],
     "link": "https://github.com/shldhee/study-project",
 }]
