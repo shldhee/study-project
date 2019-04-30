@@ -70,7 +70,7 @@
         transition: all .4s;
     }
     &--animated {
-        animation: moveInBottom .5s ease-out .75s;
+        animation: moveInBottom .3s ease-out .2s;
         animation-fill-mode: backwards;
     }
 }
