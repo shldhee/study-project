@@ -5,15 +5,13 @@ const project = document.querySelector('.project');
 const toyProject = document.querySelector('.project-toy');
 const studyProject = document.querySelector('.project-study');
 
-// project 리스트 필터
+// project, toy project, study project 리스트 필터
 const projectList = projectObject.filter(projectObj => {
   return projectObj.category === "PROJECT";
 });
-// toy project 리스트 필터
 const toyProjectList = projectObject.filter(projectObj => {
   return projectObj.category === "TOY PROJECT";
 });
-// study project 리스트 필터
 const studyProjectList = projectObject.filter(projectObj => {
   return projectObj.category === "STUDY";
 });
@@ -24,6 +22,7 @@ document.addEventListener('click', function (e) {
   if (e.target.className === "popup__close") {
     e.preventDefault();
     popup.classList.remove('on');
+    document.body.style.overflow = "auto";
   }
 
   // 프로젝트 상세 설명 클릭했을때
@@ -67,6 +66,7 @@ document.addEventListener('click', function (e) {
       <a href="${filteredProject.link}" target="_blank" class="popup__btn btn btn--animated btn--grey btn--rect">사이트 바로 가기 &gt;</a>
     </div>`
     popup.classList.add('on');
+    document.body.style.overflow = "hidden";
   }
 })
 
@@ -95,5 +95,3 @@ const renderList = function(projectObject, renderProject) {
 renderList(projectList, project);
 renderList(toyProjectList, toyProject);
 renderList(studyProjectList, studyProject);
-
-
