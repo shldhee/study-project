@@ -85,7 +85,7 @@ body {
   text-transform: uppercase;
   font-weight: 700;
   text-align: center;
-  color: #777;
+  color: crimson;
   transition: all .2s; }
   @media only screen and (max-width: 56.25em) {
     .heading-secondary {
@@ -415,7 +415,7 @@ body {
       padding: 2rem; } }
 
 .section-infomation {
-  background-color: #929292; }
+  background: linear-gradient(-45deg, #efa48d, #f7acc9, #6accef, #78e6cc); }
 
 .section-project,
 .section-toy,

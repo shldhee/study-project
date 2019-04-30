@@ -63,7 +63,7 @@ document.addEventListener('click', function (e) {
         </ul>
       </div>
       <a href="#" class="popup__close">&times;</a>
-      <a href="${filteredProject.link}" target="_blank" class="popup__btn btn btn--animated btn--grey btn--rect">사이트 바로 가기 &gt;</a>
+      <a href="${filteredProject.link}" target="_blank" class="popup__btn btn btn--animated btn--green btn--rect">사이트 바로 가기 &gt;</a>
     </div>`
     popup.classList.add('on');
     document.body.style.overflow = "hidden";
@@ -83,7 +83,7 @@ const renderList = function(projectObject, renderProject) {
               </div>
             </div>
             <div class="project__card project__card-back">
-              <a data-id="${projectObj.id}" class="project__link btn btn--grey btn--animated" href="#;">상세 설명</a>
+              <a data-id="${projectObj.id}" class="project__link btn btn--green btn--animated" href="#;">상세 설명</a>
             </div>
           </div>`
   }).join("");

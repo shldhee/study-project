@@ -16,7 +16,7 @@ body {
     // background-image: linear-gradient(to right, $color-primary-light, $color-primary-dark);
     // background-clip: text;
     // -webkit-background-clip: text;
-    color: $color-grey-dark;
+    color: crimson;
     transition: all .2s;
     @include respond(tab-port) {
         font-size: 3rem;
