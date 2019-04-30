@@ -312,7 +312,7 @@ body {
   .popup.on .popup__content {
     opacity: 1;
     transform: translate(-50%, -50%) scale(1);
-    overflow-y: scroll; }
+    overflow-y: auto; }
   .popup__content {
     position: absolute;
     top: 50%;
@@ -330,7 +330,8 @@ body {
     transition: all 1s .2s; }
   .popup__title {
     text-align: center;
-    font-size: 3.6rem; }
+    font-size: 2.8rem;
+    font-weight: bold; }
   .popup__group {
     padding: 2rem 0;
     border-bottom: 1px solid #eee; }
