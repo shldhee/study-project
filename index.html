@@ -24,14 +24,10 @@
       </ul>
     </nav>
     <ul class="sns">
-      <li class="sns__item"><a class="sns__link" href="https://github.com/shldhee" title="github" target="_blank"><i
-            class="fa fa-github" aria-hidden="true"></i></a></li>
-      <li class="sns__item"><a class="sns__link" href="https://shldhee.github.io/" title="blog" target="_blank"><i
-            class="fa fa-github-square" aria-hidden="true"></i></a></li>
-      <li class="sns__item"><a class="sns__link" href="https://www.instagram.com/bbakiss/?hl=ko" title="instagram"
-          target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-      <li class="sns__item"><a class="sns__link" href="https://www.facebook.com/wbbaki.lee" title="facebook"
-          target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+      <li class="sns__item"><a class="sns__link" href="https://github.com/shldhee" title="github" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a></li>
+      <li class="sns__item"><a class="sns__link" href="https://shldhee.github.io/" title="blog" target="_blank"><i class="fa fa-github-square" aria-hidden="true"></i></a></li>
+      <li class="sns__item"><a class="sns__link" href="https://www.instagram.com/bbakiss/?hl=ko" title="instagram" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+      <li class="sns__item"><a class="sns__link" href="https://www.facebook.com/wbbaki.lee" title="facebook" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
     </ul>
   </header>
 
@@ -93,6 +89,14 @@
   <div class="popup">
 
   </div>
+  <script>
+    const agent = navigator.userAgent.toLowerCase();
+    if (~agent.indexOf("msie") || ~agent.indexOf("trident")) {
+      alert("이 사이트는 Chrome, FireFox에 최적화 되어 있습니다. IE브라우져는 지원을 안하고 있으니 참고부탁드립니다.")
+    } else {
+      // IE가 아닐때
+    }
+  </script>
   <script src="js/projectObject.js"></script>
   <script src="js/main.js"></script>
 </body>

@@ -331,7 +331,8 @@ body {
   .popup__title {
     text-align: center;
     font-size: 2.8rem;
-    font-weight: bold; }
+    font-weight: bold;
+    word-break: keep-all; }
   .popup__group {
     padding: 2rem 0;
     border-bottom: 1px solid #eee; }
