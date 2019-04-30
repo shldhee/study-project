@@ -96,8 +96,6 @@ body {
   @media only screen and (max-width: 37.5em) {
     .heading-secondary {
       font-size: 2.5rem; } }
-  .heading-secondary:hover {
-    text-shadow: 0.5rem 1rem 2rem rgba(0, 0, 0, 0.2); }
   .heading-secondary-sub {
     font-size: 1.4rem;
     display: block; }
