@@ -120,9 +120,9 @@ const projectObject = [{
 //   "description": ["반응형 웹", "웹 접근성 인증 마크 획득"],
 //   "link": "http://www.korea.ac.kr/"
 // }, {
-  "id": "toyportfolio",
+  "id": "portfolio",
   "title": "포트폴리오",
-  "category": "TOY PROJECT",
+  "category": "PROJECT",
   "type": "PRIVATE",
   "subTitle": "포트폴리오",
   "technology": "HTML, CSS, JAVASCRIPT, ES6, SCSS",
@@ -172,7 +172,7 @@ const projectObject = [{
 }, {
   "id": "study",
   "title": "스터디",
-    "category": "TOY PROJECT",
+  "category": "STUDY",
   "type": "PRIVATE",
   "subTitle": "스터디 정리",
   "technology": "HTML, CSS, JAVASCRIPT, jQuery, ES6, REACT, VUE",
