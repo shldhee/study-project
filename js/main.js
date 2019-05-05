@@ -7,11 +7,11 @@ const studyProject = document.querySelector('.project-study');
 
 // project, toy project, study project 리스트 필터
 const projectList = projectObject.filter(projectObj => {
-  return projectObj.category === "PROJECT";
-});
-const toyProjectList = projectObject.filter(projectObj => {
   return projectObj.category === "TOY PROJECT";
 });
+// const toyProjectList = projectObject.filter(projectObj => {
+//   return projectObj.category === "TOY PROJECT";
+// });
 const studyProjectList = projectObject.filter(projectObj => {
   return projectObj.category === "STUDY";
 });
@@ -93,5 +93,5 @@ const renderList = function(projectObject, renderProject) {
 // function 실행
 // 프로젝트 리스트 그리기
 renderList(projectList, project);
-renderList(toyProjectList, toyProject);
+// renderList(toyProjectList, toyProject);
 renderList(studyProjectList, studyProject);
