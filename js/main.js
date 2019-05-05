@@ -79,7 +79,7 @@ const renderList = function(projectObject, renderProject) {
               <div class="project__box">
                 <!-- <i class="project__icon fa fa-github" aria-hidden="true"></i> -->
                 <h3 class="heading-tertiary">${projectObj.title}</h3>
-                <p class="project__paragraph">${projectObj.category}(${projectObj.type})</p>
+                <p class="project__paragraph">${projectObj.subTitle}</p>
               </div>
             </div>
             <div class="project__card project__card-back">
