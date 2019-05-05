@@ -212,7 +212,7 @@ const projectObject = [{
 }, {
   "id": "study",
   "title": "스터디",
-  "category": "STUDY",
+    "category": "TOY PROJECT",
   "type": "PRIVATE",
   "subTitle": "스터디 정리",
   "technology": "HTML, CSS, JAVASCRIPT, jQuery, ES6, REACT, VUE",
