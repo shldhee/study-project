@@ -1,125 +1,125 @@
 const projectObject = [{
-  "id": "joycommunity",
-  "title": "커뮤니티",
-  "category": "PROJECT",
-  "type": "JOYCITY",
-  "subTitle": "커뮤니티 구축(사무라이쇼다운)",
-  "technology": "HTML, CSS, JAVASCRIPT(jQuery)",
-  "concept": "운영중인 네이버 카페를 정지하고 자체 커뮤니티 사이트를 구축했습니다. 등급별 구분이 가능하며 카페의 기능들은 추가했습니다.",
-  "description": ["기여도 70%", "반응형 , 게시판, 로그인 팝업 작업", "SNS(트위터, 페이스북) 공유",
-    "mobile대응 flex 사용", "네이버 스마트 에디터 커스텀 작업",
-  ],
-  "link": "http://community.joycity.com/ssm"
-}, {
-  "id": "joygw",
-  "title": "GUNSHIP BATTLE",
-  "category": "PROJECT",
-  "type": "JOYCITY",
-  "subTitle": "건쉽배틀 : 토탈워페어 홈페이지 구축",
-  "technology": "HTML, CSS, JAVASCRIPT(jQuery)",
-  "concept": "건쉽배틀 : 토탈워페어 사전 예약 & 공식 홈페이지 제작했습니다. 백그라운드 영상을 활용해 사이트의 역동성을 추가했습니다.",
-  "description": ["기여도 70%", "반응형 웹 제작", "팝업 슬라이드, 동영상 작업, 게시판 작업", "SNS(트위터, 페이스북) 공유",
-    "youtube api 활용", "다국어"
-  ],
-  "link": "http://gw.joycity.com/ko"
-}, {
-  "id": "joyportal",
-  "title": "통합포털",
-  "category": "PROJECT",
-  "type": "JOYCITY",
-  "subTitle": "조이시티 통합포털 구축",
-  "technology": "HTML, CSS, JAVASCRIPT(jQuery)",
-  "concept": "스마일게이트에서 회원정보가 이전되면서 이관페이지 및 조이시티 통합포털 제작했습니다.",
-  "description": ["기여도 70%", "서브페이지, 회원가입, 아이디/비밀번호 찾기, 약관, 레이어팝업 작업, 게임이용시간 작업",
-    "공통적인 요소가 많아 CSS를 재활용 가능하게 클래스 구조를 설계했습니다."
-  ],
-  "link": "https://www.joycity.com/"
-}, {
-  "id": "joysavior",
-  "title": "나를 지켜줘",
-  "category": "PROJECT",
-  "type": "JOYCITY",
-  "subTitle": "나를 지켜줘 구축",
-  "technology": "HTML, CSS, JAVASCRIPT(jQuery), fullpage,",
-  "concept": "fullPage를 이용해 페이지간 이동이 슬라이드로 자연스럽습니다. 백그라운드 영상을 통해 인터랙티브한 느낌을 살렸습니다.",
-  "description": ["기여도 50%", "갤러리, 미디어 작업", "SNS( 페이스북) 공유", "갤러리 hover effect"],
-  "link": "http://saviorsaga.joycity.com"
-}, {
-  "id": "joy3on3",
-  "title": "3on3",
-  "category": "PROJECT",
-  "type": "JOYCITY",
-  "subTitle": "3on3 홈페이지(운영) & 신규 캐릭터 홈페이지(제작)",
-  "technology": "HTML, CSS, JAVASCRIPT(jQuery), JSON",
-  "concept": "3on3 게임 홈페이지(운영) 및 신규 캐릭터 소개 홈페이지 제작했습니다.",
-  "description": ["기여도 70%", "팝업 동영상 작업, 백그라운드 동영상 작업", "SNS(트위터, 페이스북) 공유",
-    "youtube api 활용 가능", "mobile에서 youtube autoplay 막힘을 알게되었으나 해결책은 현재 없습니다.",
-    "GAME GUIDE CHARACTER 에서 JSON을 통해 데이터를 넣고 페이지를 업데이트했습니다."
-  ],
-  "link": "http://3on3.fsgames.com/"
-}, {
-  "id": "joygnss",
-  "title": "창세기전",
-  "category": "PROJECT",
-  "type": "JOYCITY",
-  "subTitle": "창세기전 소개 홈페이지",
-  "technology": "HTML, CSS, JAVASCRIPT(jQuery)",
-  "concept": "창세기전 모바일 게임 소개페이지입니다. 반응형으로 제작되었습니다.",
-  "description": ["기여도 70%", "팝업 슬라이드, 게시판 작업", "SNS(트위터, 페이스북) 게시물 공유",
-    " 팝업 슬라이드를 여러개가 있는데 코드를 줄이기 위해 popup이라는 공통 영역을 만들고 작업했습니다."
-  ],
-  "link": "http://thewarofgenesis.joycity.com/en"
-}, {
-  "id": "k2kornu",
-  "title": "나사렛대학교",
-  "category": "PROJECT",
-  "type": "K2WEB",
-  "subTitle": "나사렛대학교",
-  "technology": "HTML, CSS, JAVASCRIPT(jQuery)",
-  "concept": "나사렛대학교 운영 및 고도화 사업 프로젝트",
-  "description": ["유지보수", "조직도 페이지 구축"],
-  "link": "http://www.kornu.ac.kr"
-}, {
-  "id": "k2gwe",
-  "title": "강원도교육청",
-  "category": "PROJECT",
-  "type": "K2WEB",
-  "subTitle": "강원도 교육청",
-  "technology": "HTML, CSS, JAVASCRIPT(jQuery)",
-  "concept": "강원도 교육청 운영 및 고도화 사업 포르젝트",
-  "description": ["반응형", "교원유치원센터, 교육청소개 구축"],
-  "link": "http://www.gwe.go.kr/"
-}, {
-  "id": "k2yonam",
-  "title": "연암대학교",
-  "category": "PROJECT",
-  "type": "K2WEB",
-  "subTitle": "연암대학교",
-  "technology": "HTML, CSS, JAVASCRIPT(jQuery)",
-  "concept": "연암대학교 운영 및 웹 접근성 인증 마크 획득",
-  "description": ["웹접근성 인증 마크 획득", "대학기구표 imageMap, 장학생선발규정 페이지 구축, 도서관 페이지 구축"],
-  "link": "http://www.yonam.ac.kr/"
-}, {
-  "id": "k2intis",
-  "title": "인천장애인콜택시",
-  "category": "PROJECT",
-  "type": "K2WEB",
-  "subTitle": "인천장애인 콜택시 운영 및 웹 접근성 인증 마크 획득",
-  "technology": "HTML, CSS, JAVASCRIPT(jQuery)",
-  "concept": "인천 장애인 콜택시 웹접근성 갱신 및 운영",
-  "description": ["팝업, 인터넷 콜접수 form validation 구축", "웹 접근성 인증 마크 획득"],
-  "link": "http://3on3.fsgames.com/"
-}, {
-  "id": "k2korea",
-  "title": "고려대학교",
-  "category": "PROJECT",
-  "type": "K2WEB",
-  "subTitle": "고려대학교 운영 및 고도화 사업",
-  "technology": "HTML, CSS, JAVASCRIPT(jQuery)",
-  "concept": "고려대학교 반응형웹 구축했으며, 웹 접근성 인증 마크 획득했습니다.",
-  "description": ["반응형 웹", "웹 접근성 인증 마크 획득"],
-  "link": "http://www.korea.ac.kr/"
-}, {
+//   "id": "joycommunity",
+//   "title": "커뮤니티",
+//   "category": "PROJECT",
+//   "type": "JOYCITY",
+//   "subTitle": "커뮤니티 구축(사무라이쇼다운)",
+//   "technology": "HTML, CSS, JAVASCRIPT(jQuery)",
+//   "concept": "운영중인 네이버 카페를 정지하고 자체 커뮤니티 사이트를 구축했습니다. 등급별 구분이 가능하며 카페의 기능들은 추가했습니다.",
+//   "description": ["기여도 70%", "반응형 , 게시판, 로그인 팝업 작업", "SNS(트위터, 페이스북) 공유",
+//     "mobile대응 flex 사용", "네이버 스마트 에디터 커스텀 작업",
+//   ],
+//   "link": "http://community.joycity.com/ssm"
+// }, {
+//   "id": "joygw",
+//   "title": "GUNSHIP BATTLE",
+//   "category": "PROJECT",
+//   "type": "JOYCITY",
+//   "subTitle": "건쉽배틀 : 토탈워페어 홈페이지 구축",
+//   "technology": "HTML, CSS, JAVASCRIPT(jQuery)",
+//   "concept": "건쉽배틀 : 토탈워페어 사전 예약 & 공식 홈페이지 제작했습니다. 백그라운드 영상을 활용해 사이트의 역동성을 추가했습니다.",
+//   "description": ["기여도 70%", "반응형 웹 제작", "팝업 슬라이드, 동영상 작업, 게시판 작업", "SNS(트위터, 페이스북) 공유",
+//     "youtube api 활용", "다국어"
+//   ],
+//   "link": "http://gw.joycity.com/ko"
+// }, {
+//   "id": "joyportal",
+//   "title": "통합포털",
+//   "category": "PROJECT",
+//   "type": "JOYCITY",
+//   "subTitle": "조이시티 통합포털 구축",
+//   "technology": "HTML, CSS, JAVASCRIPT(jQuery)",
+//   "concept": "스마일게이트에서 회원정보가 이전되면서 이관페이지 및 조이시티 통합포털 제작했습니다.",
+//   "description": ["기여도 70%", "서브페이지, 회원가입, 아이디/비밀번호 찾기, 약관, 레이어팝업 작업, 게임이용시간 작업",
+//     "공통적인 요소가 많아 CSS를 재활용 가능하게 클래스 구조를 설계했습니다."
+//   ],
+//   "link": "https://www.joycity.com/"
+// }, {
+//   "id": "joysavior",
+//   "title": "나를 지켜줘",
+//   "category": "PROJECT",
+//   "type": "JOYCITY",
+//   "subTitle": "나를 지켜줘 구축",
+//   "technology": "HTML, CSS, JAVASCRIPT(jQuery), fullpage,",
+//   "concept": "fullPage를 이용해 페이지간 이동이 슬라이드로 자연스럽습니다. 백그라운드 영상을 통해 인터랙티브한 느낌을 살렸습니다.",
+//   "description": ["기여도 50%", "갤러리, 미디어 작업", "SNS( 페이스북) 공유", "갤러리 hover effect"],
+//   "link": "http://saviorsaga.joycity.com"
+// }, {
+//   "id": "joy3on3",
+//   "title": "3on3",
+//   "category": "PROJECT",
+//   "type": "JOYCITY",
+//   "subTitle": "3on3 홈페이지(운영) & 신규 캐릭터 홈페이지(제작)",
+//   "technology": "HTML, CSS, JAVASCRIPT(jQuery), JSON",
+//   "concept": "3on3 게임 홈페이지(운영) 및 신규 캐릭터 소개 홈페이지 제작했습니다.",
+//   "description": ["기여도 70%", "팝업 동영상 작업, 백그라운드 동영상 작업", "SNS(트위터, 페이스북) 공유",
+//     "youtube api 활용 가능", "mobile에서 youtube autoplay 막힘을 알게되었으나 해결책은 현재 없습니다.",
+//     "GAME GUIDE CHARACTER 에서 JSON을 통해 데이터를 넣고 페이지를 업데이트했습니다."
+//   ],
+//   "link": "http://3on3.fsgames.com/"
+// }, {
+//   "id": "joygnss",
+//   "title": "창세기전",
+//   "category": "PROJECT",
+//   "type": "JOYCITY",
+//   "subTitle": "창세기전 소개 홈페이지",
+//   "technology": "HTML, CSS, JAVASCRIPT(jQuery)",
+//   "concept": "창세기전 모바일 게임 소개페이지입니다. 반응형으로 제작되었습니다.",
+//   "description": ["기여도 70%", "팝업 슬라이드, 게시판 작업", "SNS(트위터, 페이스북) 게시물 공유",
+//     " 팝업 슬라이드를 여러개가 있는데 코드를 줄이기 위해 popup이라는 공통 영역을 만들고 작업했습니다."
+//   ],
+//   "link": "http://thewarofgenesis.joycity.com/en"
+// }, {
+//   "id": "k2kornu",
+//   "title": "나사렛대학교",
+//   "category": "PROJECT",
+//   "type": "K2WEB",
+//   "subTitle": "나사렛대학교",
+//   "technology": "HTML, CSS, JAVASCRIPT(jQuery)",
+//   "concept": "나사렛대학교 운영 및 고도화 사업 프로젝트",
+//   "description": ["유지보수", "조직도 페이지 구축"],
+//   "link": "http://www.kornu.ac.kr"
+// }, {
+//   "id": "k2gwe",
+//   "title": "강원도교육청",
+//   "category": "PROJECT",
+//   "type": "K2WEB",
+//   "subTitle": "강원도 교육청",
+//   "technology": "HTML, CSS, JAVASCRIPT(jQuery)",
+//   "concept": "강원도 교육청 운영 및 고도화 사업 포르젝트",
+//   "description": ["반응형", "교원유치원센터, 교육청소개 구축"],
+//   "link": "http://www.gwe.go.kr/"
+// }, {
+//   "id": "k2yonam",
+//   "title": "연암대학교",
+//   "category": "PROJECT",
+//   "type": "K2WEB",
+//   "subTitle": "연암대학교",
+//   "technology": "HTML, CSS, JAVASCRIPT(jQuery)",
+//   "concept": "연암대학교 운영 및 웹 접근성 인증 마크 획득",
+//   "description": ["웹접근성 인증 마크 획득", "대학기구표 imageMap, 장학생선발규정 페이지 구축, 도서관 페이지 구축"],
+//   "link": "http://www.yonam.ac.kr/"
+// }, {
+//   "id": "k2intis",
+//   "title": "인천장애인콜택시",
+//   "category": "PROJECT",
+//   "type": "K2WEB",
+//   "subTitle": "인천장애인 콜택시 운영 및 웹 접근성 인증 마크 획득",
+//   "technology": "HTML, CSS, JAVASCRIPT(jQuery)",
+//   "concept": "인천 장애인 콜택시 웹접근성 갱신 및 운영",
+//   "description": ["팝업, 인터넷 콜접수 form validation 구축", "웹 접근성 인증 마크 획득"],
+//   "link": "http://3on3.fsgames.com/"
+// }, {
+//   "id": "k2korea",
+//   "title": "고려대학교",
+//   "category": "PROJECT",
+//   "type": "K2WEB",
+//   "subTitle": "고려대학교 운영 및 고도화 사업",
+//   "technology": "HTML, CSS, JAVASCRIPT(jQuery)",
+//   "concept": "고려대학교 반응형웹 구축했으며, 웹 접근성 인증 마크 획득했습니다.",
+//   "description": ["반응형 웹", "웹 접근성 인증 마크 획득"],
+//   "link": "http://www.korea.ac.kr/"
+// }, {
   "id": "toyportfolio",
   "title": "포트폴리오",
   "category": "TOY PROJECT",
