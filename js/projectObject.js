@@ -124,10 +124,10 @@ const projectObject = [{
   "title": "포트폴리오",
   "category": "PROJECT",
   "type": "PRIVATE",
-  "subTitle": "포트폴리오",
+  "subTitle": "현 사이트 소스입니다.",
   "technology": "HTML, CSS, JAVASCRIPT, ES6, SCSS",
-  "concept": "실무에서 사용할 수 없었던 기술들을 이용하여 포트폴리오 사이트 구축했습니다.",
-  "description": ["ES6, SCSS", "projectObject.js에 데이터 객체를 생성하여 script를 이용해 html을 만들었습니다.", "변수 선언, 함수 선언, 함수 실행, 이벤트 실행으로 스크립트 구조를 나눠 만들었습니다.", "SCSS로 사용하여 CSS의 불필요한 코드를 제거했습니다."],
+  "concept": "ES6, CSS 신기술들 이용해 작업했습니다.",
+  "description": ["ES6, SCSS(믹스인, 변수)", "map을 이용해 렌더링할 리스트를 만들었고 filter를 이용해 id값으로 레이어 팝업을 그릴 데이터를 가져옵니다.","reduce를 사용해 레이어 팝업 설명을 만들었습니다.","projectObject.js에 데이터 객체를 생성하여 script를 이용해 html을 만들었습니다.", "변수 선언, 함수 선언, 함수 실행, 이벤트 실행으로 스크립트 구조를 나눠 만들었습니다.", "믹스인을 사용해 반응형 미디어쿼리 코드 길이를 단축시켰습니다.","SCSS 5개의 폴더 구조로 설계 구축해 유지보수를 수월하게 했습니다."],
   "link": "https://github.com/shldhee/study-project",
 }, {
   "id": "toylovecalulator",

@@ -36,7 +36,7 @@ document.addEventListener('click', function (e) {
     popup.innerHTML = `
     <div class="popup__content">
       <div class="popup__title">
-        ${filteredProject.subTitle}
+        ${filteredProject.title}
       </div>
       <div class="popup__group">
         <h4 class="popup__group--heading">
