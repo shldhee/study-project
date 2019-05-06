@@ -154,7 +154,7 @@ const projectObject = [{
   "title": "토이프로젝트",
   "category": "TOY PROJECT",
   "type": "PRIVATE",
-  "subTitle": "토이프로젝트",
+  "subTitle": "프로젝트 그룹 스터디",
   "technology": "HTML, CSS, JAVASCRIPT",
   "concept": "그룹 스터디로 하나의 주제를 정해서 스터디원 각각 자유롭게 구현했습니다.",
   "description": ["Git pullrequest, issue, milestone 등을 활용", "이 프로젝트를 통해 Git에 대한 이해도가 향상되어 항상 궁금했던 실무에서 어떻게 Git을 활용할까에 궁금증에 대한 답변을 찾았습니다.", "Vending Machine, Carousel, Calcuator 구현"],
