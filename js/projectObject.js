@@ -142,9 +142,8 @@ const projectObject = [{
 "NPROGRESS를 사용해 페이지 이동시 상단 로딩바를 보여줘 유져들에게 편리함을 제공했습니다.",
 "CHART.js를 사용해 파이 그래프를 그려 통계를 한눈에 확인 할 수 있습니다.",
 "VUEX에서 모듈을 사용해 API 통신 후 하단 알람 메시지 관리, 유져 로그인, 가입을 분리해 유지보수에 용이하게 작업했습니다",
-"현재 계속 업데이트 중입니다.",
-"소스 : https://github.com/shldhee/jmtgrr-vue-firebase"],
-  "link": "https://jmtgrr.firebaseapp.com/",
+"현재 계속 업데이트 중입니다."],
+  "link": "https://github.com/shldhee/jmtgrr-vue-firebase",
 }, {
   "id": "toylovecalulator",
   "title": "Love Calculator",
