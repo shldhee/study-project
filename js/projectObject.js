@@ -136,7 +136,7 @@ const projectObject = [{
   "type": "PRIVATE",
   "subTitle": "맛집을 개인적으로 기록하는 웹애플리케이션",
   "technology": "VUE, VUEX, FIREBASE, CHART.js, HTML, CSS, JAVASCRIPT",
-  "concept": "VUE를 사용해 제작했꼬 FIREBASE로 가입, 로그인, DB데이터 저장, DB데이터 불러오기를 구현했습니다.",
+  "concept": "VUE와 FIREBASE로 가입, 로그인, DB데이터 저장, DB데이터 불러오기를 구현했습니다.",
   "description": ["VUE, VUEX, FIREBASE, CHART.js, HTML, CSS, JAVASCRIPT",
   "VUE-ROUTER를 이용해 SPA 구현하여 사용자들에게 편리함을 줬습니다.",
 "NPROGRESS를 사용해 페이지 이동시 상단 로딩바를 보여줘 유져들에게 편리함을 제공했습니다.",
