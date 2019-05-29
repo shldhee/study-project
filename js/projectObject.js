@@ -1,40 +1,65 @@
 const projectObject = [{
-  //   "id": "joycommunity",
-  //   "title": "커뮤니티",
-  //   "category": "PROJECT",
-  //   "type": "JOYCITY",
-  //   "subTitle": "커뮤니티 구축(사무라이쇼다운)",
-  //   "technology": "HTML, CSS, JAVASCRIPT(jQuery)",
-  //   "concept": "운영중인 네이버 카페를 정지하고 자체 커뮤니티 사이트를 구축했습니다. 등급별 구분이 가능하며 카페의 기능들은 추가했습니다.",
-  //   "description": ["기여도 70%", "반응형 , 게시판, 로그인 팝업 작업", "SNS(트위터, 페이스북) 공유",
-  //     "mobile대응 flex 사용", "네이버 스마트 에디터 커스텀 작업",
-  //   ],
-  //   "link": "http://community.joycity.com/ssm"
-  // }, {
-  //   "id": "joygw",
-  //   "title": "GUNSHIP BATTLE",
-  //   "category": "PROJECT",
-  //   "type": "JOYCITY",
-  //   "subTitle": "건쉽배틀 : 토탈워페어 홈페이지 구축",
-  //   "technology": "HTML, CSS, JAVASCRIPT(jQuery)",
-  //   "concept": "건쉽배틀 : 토탈워페어 사전 예약 & 공식 홈페이지 제작했습니다. 백그라운드 영상을 활용해 사이트의 역동성을 추가했습니다.",
-  //   "description": ["기여도 70%", "반응형 웹 제작", "팝업 슬라이드, 동영상 작업, 게시판 작업", "SNS(트위터, 페이스북) 공유",
-  //     "youtube api 활용", "다국어"
-  //   ],
-  //   "link": "http://gw.joycity.com/ko"
-  // }, {
-  //   "id": "joyportal",
-  //   "title": "통합포털",
-  //   "category": "PROJECT",
-  //   "type": "JOYCITY",
-  //   "subTitle": "조이시티 통합포털 구축",
-  //   "technology": "HTML, CSS, JAVASCRIPT(jQuery)",
-  //   "concept": "스마일게이트에서 회원정보가 이전되면서 이관페이지 및 조이시티 통합포털 제작했습니다.",
-  //   "description": ["기여도 70%", "서브페이지, 회원가입, 아이디/비밀번호 찾기, 약관, 레이어팝업 작업, 게임이용시간 작업",
-  //     "공통적인 요소가 많아 CSS를 재활용 가능하게 클래스 구조를 설계했습니다."
-  //   ],
-  //   "link": "https://www.joycity.com/"
-  // }, {
+  "id": "portfolio",
+  "title": "포트폴리오",
+  "category": "PROJECT",
+  "type": "PRIVATE",
+  "subTitle": "현 사이트 소스입니다.",
+  "technology": "HTML, CSS, JAVASCRIPT, ES6, SCSS",
+  "concept": "ES6, CSS 신기술들 이용해 작업했습니다.",
+  "description": ["ES6, SCSS(믹스인, 변수)", "map을 이용해 렌더링할 리스트를 만들었고 filter를 이용해 id값으로 레이어 팝업을 그릴 데이터를 가져옵니다.", "reduce를 사용해 레이어 팝업 설명을 만들었습니다.", "projectObject.js에 데이터 객체를 생성하여 script를 이용해 html을 만들었습니다.", "변수 선언, 함수 선언, 함수 실행, 이벤트 실행으로 스크립트 구조를 나눠 만들었습니다.", "믹스인을 사용해 반응형 미디어쿼리 코드 길이를 단축시켰습니다.", "SCSS 5개의 폴더 구조로 설계 구축해 유지보수를 수월하게 했습니다."],
+  "link": "https://github.com/shldhee/study-project",
+}, {
+  "id": "JMTZ",
+  "title": "존맛탱집",
+  "category": "PROJECT",
+  "type": "PRIVATE",
+  "subTitle": "맛집을 개인적으로 기록하는 웹애플리케이션",
+  "technology": "VUE, VUEX, FIREBASE, CHART.js, HTML, CSS, JAVASCRIPT",
+  "concept": "VUE와 FIREBASE로 가입, 로그인, DB데이터 저장, DB데이터 불러오기를 구현했습니다.",
+  "description": ["VUE, VUEX, FIREBASE, CHART.js, HTML, CSS, JAVASCRIPT",
+  "VUE-ROUTER를 이용해 SPA 구현하여 사용자들에게 편리함을 줬습니다.",
+"NPROGRESS를 사용해 페이지 이동시 상단 로딩바를 보여줘 유져들에게 편리함을 제공했습니다.",
+"CHART.js를 사용해 파이 그래프를 그려 통계를 한눈에 확인 할 수 있습니다.",
+"VUEX에서 모듈을 사용해 API 통신 후 하단 알람 메시지 관리, 유져 로그인, 가입을 분리해 유지보수에 용이하게 작업했습니다",
+"현재 계속 업데이트 중입니다."],
+  "link": "https://github.com/shldhee/jmtgrr-vue-firebase",
+}, {
+    "id": "joycommunity",
+    "title": "커뮤니티",
+    "category": "PROJECT",
+    "type": "JOYCITY",
+    "subTitle": "커뮤니티 구축(사무라이쇼다운)",
+    "technology": "HTML, CSS, JAVASCRIPT(jQuery)",
+    "concept": "운영중인 네이버 카페를 정지하고 자체 커뮤니티 사이트를 구축했습니다. 등급별 구분이 가능하며 카페의 기능들은 추가했습니다.",
+    "description": ["기여도 70%", "반응형 , 게시판, 로그인 팝업 작업", "SNS(트위터, 페이스북) 공유",
+      "mobile대응 flex 사용", "네이버 스마트 에디터 커스텀 작업",
+    ],
+    "link": "http://community.joycity.com/ssm"
+  }, {
+    "id": "joygw",
+    "title": "GUNSHIP BATTLE",
+    "category": "PROJECT",
+    "type": "JOYCITY",
+    "subTitle": "건쉽배틀 : 토탈워페어 홈페이지 구축",
+    "technology": "HTML, CSS, JAVASCRIPT(jQuery)",
+    "concept": "건쉽배틀 : 토탈워페어 사전 예약 & 공식 홈페이지 제작했습니다. 백그라운드 영상을 활용해 사이트의 역동성을 추가했습니다.",
+    "description": ["기여도 70%", "반응형 웹 제작", "팝업 슬라이드, 동영상 작업, 게시판 작업", "SNS(트위터, 페이스북) 공유",
+      "youtube api 활용", "다국어"
+    ],
+    "link": "http://gw.joycity.com/ko"
+  }, {
+    "id": "joyportal",
+    "title": "통합포털",
+    "category": "PROJECT",
+    "type": "JOYCITY",
+    "subTitle": "조이시티 통합포털 구축",
+    "technology": "HTML, CSS, JAVASCRIPT(jQuery)",
+    "concept": "스마일게이트에서 회원정보가 이전되면서 이관페이지 및 조이시티 통합포털 제작했습니다.",
+    "description": ["기여도 70%", "서브페이지, 회원가입, 아이디/비밀번호 찾기, 약관, 레이어팝업 작업, 게임이용시간 작업",
+      "공통적인 요소가 많아 CSS를 재활용 가능하게 클래스 구조를 설계했습니다."
+    ],
+    "link": "https://www.joycity.com/"
+  }, {
   //   "id": "joysavior",
   //   "title": "나를 지켜줘",
   //   "category": "PROJECT",
@@ -70,16 +95,16 @@ const projectObject = [{
   //   ],
   //   "link": "http://thewarofgenesis.joycity.com/en"
   // }, {
-  //   "id": "k2kornu",
-  //   "title": "나사렛대학교",
-  //   "category": "PROJECT",
-  //   "type": "K2WEB",
-  //   "subTitle": "나사렛대학교",
-  //   "technology": "HTML, CSS, JAVASCRIPT(jQuery)",
-  //   "concept": "나사렛대학교 운영 및 고도화 사업 프로젝트",
-  //   "description": ["유지보수", "조직도 페이지 구축"],
-  //   "link": "http://www.kornu.ac.kr"
-  // }, {
+    "id": "k2kornu",
+    "title": "나사렛대학교",
+    "category": "PROJECT",
+    "type": "K2WEB",
+    "subTitle": "나사렛대학교",
+    "technology": "HTML, CSS, JAVASCRIPT(jQuery)",
+    "concept": "나사렛대학교 운영 및 고도화 사업 프로젝트",
+    "description": ["유지보수", "조직도 페이지 구축"],
+    "link": "http://www.kornu.ac.kr"
+  }, {
   //   "id": "k2gwe",
   //   "title": "강원도교육청",
   //   "category": "PROJECT",
@@ -109,42 +134,18 @@ const projectObject = [{
   //   "concept": "인천 장애인 콜택시 웹접근성 갱신 및 운영",
   //   "description": ["팝업, 인터넷 콜접수 form validation 구축", "웹 접근성 인증 마크 획득"],
   //   "link": "http://3on3.fsgames.com/"
-  // }, {
-  //   "id": "k2korea",
-  //   "title": "고려대학교",
-  //   "category": "PROJECT",
-  //   "type": "K2WEB",
-  //   "subTitle": "고려대학교 운영 및 고도화 사업",
-  //   "technology": "HTML, CSS, JAVASCRIPT(jQuery)",
-  //   "concept": "고려대학교 반응형웹 구축했으며, 웹 접근성 인증 마크 획득했습니다.",
-  //   "description": ["반응형 웹", "웹 접근성 인증 마크 획득"],
-  //   "link": "http://www.korea.ac.kr/"
-  // }, {
-  "id": "portfolio",
-  "title": "포트폴리오",
-  "category": "PROJECT",
-  "type": "PRIVATE",
-  "subTitle": "현 사이트 소스입니다.",
-  "technology": "HTML, CSS, JAVASCRIPT, ES6, SCSS",
-  "concept": "ES6, CSS 신기술들 이용해 작업했습니다.",
-  "description": ["ES6, SCSS(믹스인, 변수)", "map을 이용해 렌더링할 리스트를 만들었고 filter를 이용해 id값으로 레이어 팝업을 그릴 데이터를 가져옵니다.", "reduce를 사용해 레이어 팝업 설명을 만들었습니다.", "projectObject.js에 데이터 객체를 생성하여 script를 이용해 html을 만들었습니다.", "변수 선언, 함수 선언, 함수 실행, 이벤트 실행으로 스크립트 구조를 나눠 만들었습니다.", "믹스인을 사용해 반응형 미디어쿼리 코드 길이를 단축시켰습니다.", "SCSS 5개의 폴더 구조로 설계 구축해 유지보수를 수월하게 했습니다."],
-  "link": "https://github.com/shldhee/study-project",
-}, {
-  "id": "JMTZ",
-  "title": "존맛탱집",
-  "category": "PROJECT",
-  "type": "PRIVATE",
-  "subTitle": "맛집을 개인적으로 기록하는 웹애플리케이션",
-  "technology": "VUE, VUEX, FIREBASE, CHART.js, HTML, CSS, JAVASCRIPT",
-  "concept": "VUE와 FIREBASE로 가입, 로그인, DB데이터 저장, DB데이터 불러오기를 구현했습니다.",
-  "description": ["VUE, VUEX, FIREBASE, CHART.js, HTML, CSS, JAVASCRIPT",
-  "VUE-ROUTER를 이용해 SPA 구현하여 사용자들에게 편리함을 줬습니다.",
-"NPROGRESS를 사용해 페이지 이동시 상단 로딩바를 보여줘 유져들에게 편리함을 제공했습니다.",
-"CHART.js를 사용해 파이 그래프를 그려 통계를 한눈에 확인 할 수 있습니다.",
-"VUEX에서 모듈을 사용해 API 통신 후 하단 알람 메시지 관리, 유져 로그인, 가입을 분리해 유지보수에 용이하게 작업했습니다",
-"현재 계속 업데이트 중입니다."],
-  "link": "https://github.com/shldhee/jmtgrr-vue-firebase",
-}, {
+  }, {
+    "id": "k2korea",
+    "title": "고려대학교",
+    "category": "PROJECT",
+    "type": "K2WEB",
+    "subTitle": "고려대학교 운영 및 고도화 사업",
+    "technology": "HTML, CSS, JAVASCRIPT(jQuery)",
+    "concept": "고려대학교 반응형웹 구축했으며, 웹 접근성 인증 마크 획득했습니다.",
+    "description": ["반응형 웹", "웹 접근성 인증 마크 획득"],
+    "link": "http://www.korea.ac.kr/"
+  }, {
+  
   "id": "toylovecalulator",
   "title": "Love Calculator",
   "category": "TOY PROJECT",
